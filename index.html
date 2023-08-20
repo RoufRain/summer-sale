@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>summer-sale</title>
+</head>
+<body>
+    <header class=" bg-[#F9F6E2]">
+        <section class=" lg:w-[1440px] lg:mx-auto lg:h-[100vh]">
+            <div class="hero min-h-screen">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                     <img src="images/Summer 1.png" class="sm:max-w-md lg:max-w-lg md:pl-4" />
+                     <div>
+                        <p class="font-sans font-medium text-2xl">---SALE FEVER---</p>
+                        <h1 class="font-sans font-bold text-xl lg:text-6xl ">Purchase TK 200 or<br> above & get <span class="text-[#E527B2]">20% off</span></h1>
+                        <p class="py-6 font-sans font-medium text-xl ">Use Promo Code <button
+                                class="btn btn-secondary">SELL200</button></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="  lg:w-[1440px] mx-auto sm:justify-center">
+
+        <section class="mt-8">
+            
+
+
+            <div class="sm:pl-6 flex flex-col lg:flex-row" >
+
+                <div class=" sm:pl-6 ">
+                    <!-- first part kitchen ware -->
+                    <div class="mt-7 mb-7"><h2 class="font-sans font-medium text-2xl">Kitchenware</h2></div>
+                      <!-- kitchen ware container -->
+                        <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" > 
+                            
+                            <div id=""  class="p-2 bg-white w-80 border rounded-sm">
+                                <div onclick="clickHandler(this)" class="card bg-base-100 shadow-xl  ">
+                        
+                                    <figure class="px-2 pt-10 pb-5 bg-base-200 ">
+                                    <img src="images/prod1.png" alt="" class="rounded-xl" />
+                                    </figure>
+                                    
+                                        <div class="rating justify-center mt-6 ">
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-[tomato]" checked />
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-[tomato]"  />
+                                        </div>
+                                    <h2 class="card-title justify-center mt-2">Home Accessories</h2>
+                                    <p class="items-center text-center mt-2 mb-3">29.00 TK</p>
+                                </div>
+                            </div>
+                            
+        
+                            <!-- card 2 -->
+                            <div id=""  class="p-2 bg-white w-80 border rounded-sm">
+                                <div onclick="clickHandler(this)" class="card bg-base-100 shadow-xl  ">
+                        
+                                    <figure class="px-2 pt-10 pb-5 bg-base-200 ">
+                                    <img src="images/prod2.png" alt="" class="rounded-xl" />
+                                    </figure>
+                                    
+                                        <div class="rating justify-center mt-6 ">
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[tomato]"  />
+                                        </div>
+                                    <h2 class="card-title justify-center mt-2">K. Accessories</h2>
+                                    <p class="items-center text-center mt-2 mb-3">25.00 TK</p>
+                                </div>
+                            </div>
+                            
+        
+                            <!-- card 3 -->
+                            <div id=""  class="p-2 bg-white w-80 border rounded-sm">
+                                <div onclick="clickHandler(this)" class="card bg-base-100 shadow-xl  ">
+                        
+                                    <figure class="px-2 pt-10 pb-5 bg-base-200 ">
+                                    <img src="images/prod3.png" alt="" class="rounded-xl" />
+                                    </figure>
+                                    
+                                        <div class="rating justify-center mt-6 ">
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[tomato]" checked />
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[tomato]"  />
+                                        </div>
+                                    <h2 class="card-title justify-center mt-2">Home Cooker</h2>
+                                    <p class="items-center text-center mt-2 mb-3">49.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+
+                     <!-- second part sports -->
+                    <div class="mt-7 mb-7"><h2 class="font-sans font-medium text-2xl">Sports Ware</h2></div>
+
+                        <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" > 
+                            
+                            <div id=""  class="p-2 bg-white w-80 border rounded-sm">
+                                <div onclick="clickHandler(this)" class="card bg-base-100 shadow-xl  ">
+                        
+                                    <figure class="px-2 pt-10 pb-5 bg-base-200 ">
+                                    <img src="images/prod4.png" alt="" class="rounded-xl" />
+                                    </figure>
+                                    
+                                        <div class="rating justify-center mt-6 ">
+                                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[tomato]" checked />
+                                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[tomato]" />
+                                        </div>
+                                    <h2 class="card-title justify-center mt-2">Sports Black Cap</h2>
+                                    <p class="items-center text-center mt-2 mb-3">49.00 TK</p>
+                                </div>
+                            </div>
+                            
+        
+                            <!-- card 5 -->
+                            <div id=""  class="p-2 bg-white w-80 border rounded-sm">
+                                <div onclick="clickHandler(this)" class="card bg-base-100 shadow-xl  ">
+                        
+                                    <figure class="px-2 pt-10 pb-5 bg-base-200 ">
+                                    <img src="images/prod5.png" alt="" class="rounded-xl" />
+                                    </figure>
+                                    
+                                        <div class="rating justify-center mt-6 ">
+                                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[tomato]"  />
+                                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[tomato]" checked />
+                                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[tomato]" />
+                                        </div>
+                                    <h2 class="card-title justify-center mt-2">Fully Jersey Set</h2>
+                                    <p class="items-center text-center mt-2 mb-3">69.00 TK</p>
+                                </div>
+                            </div>
+                            
+        
+                            <!-- card 6 -->
+                            <div id=""  class="p-2 bg-white w-80 border rounded-sm">
+                                <div onclick="clickHandler(this)" class="card bg-base-100 shadow-xl  ">
+                        
+                                    <figure class="px-2 pt-10 pb-5 bg-base-200 ">
+                                    <img src="images/prod6.png" alt="" class="rounded-xl" />
+                                    </figure>
+                                    
+                                        <div class="rating justify-center mt-6 ">
+                                            <input type="radio" name="rating-6" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-6" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-6" class="mask mask-star-2 bg-[tomato]" checked />
+                                            <input type="radio" name="rating-6" class="mask mask-star-2 bg-[tomato]" />
+                                            <input type="radio" name="rating-6" class="mask mask-star-2 bg-[tomato]" />
+                                        </div>
+                                    <h2 class="card-title justify-center mt-2">Sports Cates</h2>
+                                    <p class="items-center text-center mt-2 mb-3">159.00 TK</p>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+              
+                <!-- calculation -->
+                <div id="invoice-section" class="pl-3 w-[300px] md:w-[400px]  sm:p-6 mt-[88px] md:ml-4 border">
+                    
+                    <div class="mt-4 md:p-5 bg-base-200 mb-3">
+                        <p class="mb-1">have a coupon?</p>
+                        <input id="input-field" class=" border h-12 pl-3 rounded-l-lg" type="text" placeholder="Coupon Code"><button id="button-apply" disabled onclick="applyButton()" class="btn btn-secondary rounded-l-none">Apply</button>
+                    </div>
+                    <div class="md:p-5">
+                        <p class="text-[16px] font-medium">Cart: </p>
+
+                                    <div id="selected-items" class="selected-items">
+                                        <ol class="list-decimal list-inside">
+
+                                        </ol>
+
+                                    </div>
+
+                        <div class="divider h-[1px] w-56 bg-black"></div>
+
+                        <p class="text-[16px] font-medium">Total Price: <span id="total-price">00</span>.00 TK </p>
+                        <p class="text-[16px] font-medium">Discount: <span id="discount-price">00</span> TK </p>
+
+                        <p class="text-[16px] font-medium">Grand Total: <span id="grand-total">00</span>.00 Tk </p>
+                    </div>
+                    
+                    <div class="p-5">
+                        <div class="divider h-[1px] w-56 bg-black"></div>
+                        <button id="button-purchase" class="btn btn-secondary" disabled onclick="my_modal_1.showModal()" >Make Purchase</button>
+                        
+                        <dialog id="my_modal_1" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <div class="ml-40 mt-2">
+                                <img  src="images/congo.png" alt="" >
+                            </div>
+                            <h3 class="font-bold text-2xl text-center">Congratulations</h3>
+                            <p class="text-xl font-medium py-4 text-center">You Purchase the product</p>
+                            <div class="modal-action justify-center">
+                            <button id="go-home" onclick="goHome()" class="btn btn-secondary ">Go Home</button>
+                            </div>
+                        </form>
+                        </dialog>
+
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </section>
+    </main>
+
+    <script src="js/purchase.js">
+
+    </script>
+</body>
+</html>
