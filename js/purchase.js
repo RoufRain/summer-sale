@@ -1,6 +1,6 @@
 
 let total = 0.00;
-//let gTotal = 0.00;
+
 function clickHandler(target) {
 
     
@@ -22,9 +22,9 @@ function clickHandler(target) {
    
     total = parseInt(total.toFixed(2)) + parseInt(itemPrice);
 
-    document.getElementById("total-price").innerText = total;
+    document.getElementById("total-price").innerText = total.toFixed(2);
 
-    document.getElementById("grand-total").innerText = total;
+    document.getElementById("grand-total").innerText = total.toFixed(2);
 
         //apply Button enable
         if(total >= 200 ) { 
@@ -53,7 +53,7 @@ function clickHandler(target) {
             document.getElementById("discount-price").innerText = discount;
 
             const gTotal = total - discount;
-            document.getElementById("grand-total").innerText = gTotal;
+            document.getElementById("grand-total").innerText = gTotal.toFixed(2);
         }
 
     }
